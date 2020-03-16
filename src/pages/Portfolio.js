@@ -1,5 +1,8 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron"
+import ClickyGameImage from "../assets/images/technics-q-c-640-480-1.jpg"
+import RPGGameImage from "../assets/images/technics-q-c-640-480-2.jpg"
+
 
 function Portfolio () {
     return (
@@ -15,14 +18,14 @@ function Portfolio () {
           </div>
     
             
-        
+
           <div className="work">
-            <a href="https://tangchristina.github.io/Psychic-Game/"><img src="assets/images/technics-q-c-640-480-1.jpg" alt="Psychic Game"></img></a>
+            <a href="https://tangchristina.github.io/Psychic-Game/"><img src= {ClickyGameImage} alt="Psychic Game"></img></a>
             <h3>Psychic Game</h3>
           </div>
          
           <div className="work">
-            <a href="https://tangchristina.github.io/unit-4-game/"><img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game"></img></a>
+            <a href="https://tangchristina.github.io/unit-4-game/"><img src={RPGGameImage} alt="RPG Game"></img></a>
             
             <h3>Crystal Game</h3>
           </div>
@@ -37,8 +40,7 @@ function Portfolio () {
     
             <h3>uTrippin'</h3>
           </div>
-    
-    
+
           <div className="work">
             <a href="https://tangchristina.github.io/train-scheduler/"><img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors"></img></a>
     
@@ -66,13 +68,20 @@ function Portfolio () {
       <h3>Car Clicky Game</h3>
     </div>
     <div className="work">
-      <a href="http://lit-cliffs-37719.herokuapp.com/"><img src="assets/images/google-books.jpg" alt="google-books"></img></a>
+      <a href="http://lit-cliffs-37719.herokuapp.com/"><img src="assets/images/bmw.jpeg" alt="google-books"></img></a>
     
       <h3>Google Books</h3>
     </div>
     
     
         </section>
+
+
+
+
+
+
+
     
       </div>
     
