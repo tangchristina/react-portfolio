@@ -10,6 +10,7 @@ import BurgerImage from "../assets/images/images.jpeg"
 import HotelImage from "../assets/images/hotel.jpeg"
 import ClickyGameImage from "../assets/images/bmw.jpeg"
 import GoogleBooksImage from "../assets/images/google-books.jpg"
+import GreenGrubImage from "../assets/images/green-grub-image.jpg"
 
 function Portfolio () {
     return (
@@ -78,6 +79,11 @@ function Portfolio () {
       <a href="http://lit-cliffs-37719.herokuapp.com/"><img src={GoogleBooksImage} alt="google-books"></img></a>
     
       <h3>Google Books</h3>
+    </div>
+    <div className="work">
+      <a href="https://enigmatic-oasis-28658.herokuapp.com/"><img src={GreenGrubImage} alt="green-grub"></img></a>
+    
+      <h3>Green Grub</h3>
     </div>
     
     
